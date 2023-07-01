@@ -1,0 +1,186 @@
+
+    ul {
+        list-style: none; /* Listeleme işaretlerini kaldırır */
+        padding-left: 0;
+    }
+
+    button { /* Page isimlerinin kutusunu özelleştirir */
+        margin: 10px;
+        padding: 10px 20px;
+        width: 150px;
+        float: left;
+        background-color: whitesmoke;
+    }
+    
+    h2{
+        background-color: whitesmoke;
+        width: 90%;
+        opacity: 0.7;
+        padding: 4px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .animation {
+        display: flex;
+        justify-content: center;
+    }
+
+    .box { /* e campus harflerini şekillendirir */
+        width: auto;
+        height: 100px;
+        background-color: black;
+        margin: 0px;
+        font-size: 100px;
+        padding: 20px;
+        color: #fff;
+    }
+    .page{
+        align-items: center;
+        vertical-align: middle;
+    }
+    .boxright {
+        display: none;
+    }
+
+    input[type="text"] {
+        height: 25px;
+        border-radius: 5px;
+        padding: 4px;
+        border: solid thin #aaa;
+        width: 90%;
+    }
+    .list{
+        float: left;
+        width: 50%;
+    }
+    .boxright{
+
+        width: 50%;
+        margin-left: 50px;
+    }
+
+    .form-container {
+        width: 734px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Yatayda ve dikeyde ortalamak için ekledik */
+        margin-top: 20px;
+        background: url(okul.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin: auto; /* Sayfayı ortalamak için ekledik */
+    }
+
+
+    .form-container input[type="submit"] {
+        margin-top: 10px;
+
+    }
+
+    .form-container h2 {
+        margin-bottom: 10px;
+    }
+
+    /* Step 1: Build the Animation */
+    @-webkit-keyframes aniload {
+        from {
+            -webkit-transform:translate(0px, 1000px)
+        }
+        to   {
+            -webkit-transform:translate(0px, 0px)
+        }
+    }
+
+    @-moz-keyframes aniload {
+        from {
+            -moz-transform:translate(0px, 1000px)
+        }
+        to   {
+            -moz-transform:translate(0px, 0px)
+        }
+    }
+
+    @-ms-keyframes aniload {
+        from {
+            -ms-transform:translate(0px, 1000px)
+        }
+        to   {
+            -ms-transform:translate(0px, 0px)
+        }
+    }
+
+    @-o-keyframes aniload {
+        from {
+            -o-transform:translate(0px, 1000px)
+        }
+        to   {
+            -o-transform:translate(0px, 0px)
+        }
+    }
+
+    @keyframes aniload {
+        from {
+            transform:translate(0px, 1000px)
+        }
+        to   {
+            transform:translate(0px, 0px)
+        }
+    }
+
+    /* Step 2: Call the Animation */
+    #box1 {
+        -webkit-animation:aniload 2s;
+        -moz-animation:aniload 2s;
+        -ms-animation:aniload 2s;
+        -o-animation:aniload 2s;
+        animation:aniload 2s;
+    }
+
+    #box2 {
+        -webkit-animation:aniload 1.5s;
+        -moz-animation:aniload 1.5s;
+        -ms-animation:aniload 1.5s;
+        -o-animation:aniload 1.5s;
+        animation:aniload 1.5s;
+    }
+
+    #box3 {
+        -webkit-animation:aniload 2s;
+        -moz-animation:aniload 2s;
+        -ms-animation:aniload 2s;
+        -o-animation:aniload 2s;
+        animation:aniload 2s;
+    }
+
+    #box4 {
+        -webkit-animation:aniload 1s;
+        -moz-animation:aniload 1s;
+        -ms-animation:aniload 1s;
+        -o-animation:aniload 1s;
+        animation:aniload 1s;
+    }
+
+    #box5 {
+        -webkit-animation:aniload 1.5s;
+        -moz-animation:aniload 1.5s;
+        -ms-animation:aniload 1.5s;
+        -o-animation:aniload 1.5s;
+        animation:aniload 1.5s;
+    }
+    #box6 {
+        -webkit-animation:aniload 1s;
+        -moz-animation:aniload 1s;
+        -ms-animation:aniload 1s;
+        -o-animation:aniload 1s;
+        animation:aniload 1s;
+    }
+
+    #box7 {
+        -webkit-animation:aniload 2s;
+        -moz-animation:aniload 2s;
+        -ms-animation:aniload 2s;
+        -o-animation:aniload 2s;
+        animation:aniload 2s;
+
